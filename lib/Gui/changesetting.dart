@@ -34,18 +34,18 @@
                       hintText: 'Your address'),
                   keyboardType: TextInputType.number,
                 ),
-               new TextField(
-                  style: TextStyle(fontSize: 18.0, color: Colors.deepPurple),
-                  controller: _passwordController,
-                  decoration: InputDecoration(
-                      icon: new Icon(
-                        Icons.lock,
-                        color: Colors.deepPurple,
-                        size: 20.0,
-                      ),
-                      hintText: 'Reset new password'),
-                  obscureText: true,
-                ),
+               // new TextField(
+               //    style: TextStyle(fontSize: 18.0, color: Colors.deepPurple),
+               //    controller: _passwordController,
+               //    decoration: InputDecoration(
+               //        icon: new Icon(
+               //          Icons.lock,
+               //          color: Colors.deepPurple,
+               //          size: 20.0,
+               //        ),
+               //        hintText: 'Reset new password'),
+               //    obscureText: true,
+               //  ),
                 Container(
                     child: new RaisedButton(
                       onPressed: getpref,
